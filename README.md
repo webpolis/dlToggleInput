@@ -22,7 +22,10 @@ Options:
 Example:  
 
                 $('input').dlToggleInput({  
-                        disabled:true,  
+                        disabled:true,
+			imgStateDisabled: '/images/icons/user.png',  
+			imgStateDisabledWidth: 20,  
+			imgStateEnable: '/images/clear.png',  
                         onClear: function(el){  
                                 alert('Reset!');  
                         }  
