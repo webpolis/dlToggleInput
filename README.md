@@ -1,7 +1,7 @@
 dlToggleInput - jQuery Plugin
 =============================
 
-This plugin allows you to manually disable a text field or reset its contents through a nicely  
+This plugin allows you to manually disable a text field or reset its contents through a nice  
 graphical interface. It also allows you to insert an icon in front of the field when it's on disabled state.  
 
 
