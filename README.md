@@ -10,7 +10,7 @@ Options:
 
 
 		disabled: 		true if you want to disable this field by default  
-		keepValue: 		true if you want to keep the value when the enable button is clicked  
+		keepValue: 		true if you want to keep the value when the enable/reset button is clicked  
 		disabledColor:		HTML color code used as background  
 		imgStateDisabled: 	URL pointing to the icon which represents the content of the field  
 		imgStateDisabledWidth:	size (width) in pixels of the icon shown when field is disabled  
@@ -19,5 +19,10 @@ Options:
 		onClear: 		optional, callback executed on reset  
  
 
-
-
+Example:
+		$('input').dlToggleInput({
+			disabled:true,
+			onClear: function(el){
+				alert('Reset!');
+			}
+		});
