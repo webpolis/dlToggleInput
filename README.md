@@ -19,10 +19,11 @@ Options:
 		onClear: 		optional, callback executed on reset  
  
 
-Example:
-		$('input').dlToggleInput({
-			disabled:true,
-			onClear: function(el){
-				alert('Reset!');
-			}
-		});
+Example:  
+
+                        $('input').dlToggleInput({  
+                        disabled:true,  
+                        onClear: function(el){  
+                                alert('Reset!');  
+                        }  
+                });  
