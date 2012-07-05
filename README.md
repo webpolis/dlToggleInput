@@ -21,7 +21,7 @@ Options:
 
 Example:  
 
-                        $('input').dlToggleInput({  
+                $('input').dlToggleInput({  
                         disabled:true,  
                         onClear: function(el){  
                                 alert('Reset!');  
